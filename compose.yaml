@@ -1,0 +1,6 @@
+services:
+  intervall-timer-app:
+    image: ghcr.io/2tap2bi/intervall-timer-app:latest
+    ports:
+      - "5000:5000"
+    restart: always
